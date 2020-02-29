@@ -1,0 +1,2 @@
+rootProject.name='Parstagrammm'
+include ':app'
