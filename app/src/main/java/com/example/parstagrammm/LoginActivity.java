@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -20,6 +21,8 @@ import com.parse.SignUpCallback;
 public class LoginActivity extends AppCompatActivity {
 
     public static final String TAG = "Login Activity";
+
+    private ImageView ivTitle;
     private EditText etUsername;
     private EditText etPassword;
     private Button btnLogin;
@@ -34,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
             goMainActivity();
         }
 
+        ivTitle = findViewById(R.id.ivTitle);
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);

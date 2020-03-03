@@ -2,4 +2,7 @@
     <string name="app_name">Parstagrammm</string>
     <string name="login">Login</string>
     <string name="signup">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="takepicture">Take Picture</string>
 </resources>
